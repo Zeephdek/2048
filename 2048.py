@@ -136,7 +136,7 @@ def main():
                             else:
                                 break
 
-        elif key == "left":  ####SOMEHOW 64 + 64 = -128, and -128 + -128 = 2, sort of broken
+        elif key == "left":  ####SOMEHOW 64 + 64 = -128, and -128 + -128 = 2, sort of broken (fixed)
             for y in range(0,array_shape[1]):
                 #print(y)
                 for x in range(0,array_shape[0]):
